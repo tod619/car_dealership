@@ -12,6 +12,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -54,6 +55,11 @@ body {
 
 .navbar.change {
   left: 0;
+}
+
+.navbar-link {
+  font-size: 1.5rem;
+  margin: 2rem 0;
 }
 /* End: Navbar */
 
