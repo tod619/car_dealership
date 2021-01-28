@@ -133,5 +133,18 @@ section.change {
 
 /* Start: Section 1 Home */
 .section-1 {
+  flex-direction: column;
+  background: url(images/bg-section1.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.section-1 .section-1-heading {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  text-shadow: 1rem 1rem 1rem #000, 2rem 2rem 2rem #111, 3rem 3rem 3rem #222;
+}
+
+.section-1-img {
+  width: 70%;
 }
 /* End: Section 1 Home */
