@@ -116,4 +116,18 @@ section.change {
   left: 15vw;
   transform: rotateY(10deg);
 }
+
+.section-heading {
+  font-size: 10rem;
+  font-weight: bolder;
+  color: #fff;
+  margin-bottom: 10rem;
+  letter-spacing: 1rem;
+  text-align: center;
+  text-shadow: 0.3rem 0.3rem 0.5rem #555;
+}
 /* End: Common Section Style */
+
+/* Start: Section 1 Home */
+
+/* End: Section 1 Home */
