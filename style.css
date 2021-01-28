@@ -19,6 +19,12 @@ body {
   background-color: #ccc;
   padding-right: 3rem;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* End: Common Styles */
 
 /* Start: Menu */
@@ -29,11 +35,8 @@ body {
   top: 2rem;
   left: 2rem;
   z-index: 10;
-  transition: all 0.5s;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  transition: all 0.5s;
   cursor: pointer;
 }
 
@@ -129,5 +132,6 @@ section.change {
 /* End: Common Section Style */
 
 /* Start: Section 1 Home */
-
+.section-1 {
+}
 /* End: Section 1 Home */
