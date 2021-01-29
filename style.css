@@ -149,7 +149,7 @@ section.change {
 }
 /* End: Section 1 Home */
 
-/* Start: Section 2 Home */
+/* Start: Section 2 Popular Cars */
 .section-2 {
   display: flex;
   flex-direction: column;
@@ -212,4 +212,17 @@ section.change {
   text-shadow: 0.1rem 0.1rem 0.3rem #000;
   box-shadow: 0.1rem 0.1rem 0.5rem #bbb;
 }
-/* End: Section 2 Home */
+/* End: Section 2 Popular Cars */
+
+/* Start: Section 3 Video Gallery */
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #222;
+}
+
+.video {
+  width: 25%;
+}
+/* End: Section 3 Video Gallery */
