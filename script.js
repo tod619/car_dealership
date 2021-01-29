@@ -13,3 +13,20 @@ document.querySelectorAll('.wrapper').forEach((item) => {
         })
     });
 });
+
+// Play videos on hover
+const videos = document.querySelectorAll('.video');
+
+videos.forEach((video) => {
+
+    // Play on mouse hover
+    video.addEventListener('mouseover', () => {
+        video.play();
+    })
+
+    // Pause video on mouseout event
+    video.addEventListener('mouseout', () => {
+        video.pause();
+    })
+});
+
