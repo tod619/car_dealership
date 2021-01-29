@@ -148,3 +148,29 @@ section.change {
   width: 70%;
 }
 /* End: Section 1 Home */
+
+/* Start: Section 2 Home */
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card {
+  width: 50rem;
+  margin: 0 3rem;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0.6rem 0.6rem 0.6rem #bbb;
+  /* transition: box-shadow 0.5s; */
+  transition: all 0.5s;
+}
+
+.card:hover {
+  box-shadow: 1rem 1rem 1rem #bbb;
+}
+
+.card-img {
+  width: 100%;
+}
+/* End: Section 2 Home */
