@@ -298,3 +298,15 @@ section.change {
   left: 70%;
 }
 /* End: Section 4 Image Gallery */
+
+/* Start: Section 5 Form + Footer */
+.section-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 00.8)),
+    url(images/bg-section5.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+/* End: Section 5 Form + Footer */
