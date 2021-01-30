@@ -577,4 +577,14 @@ section.change {
   }
 }
 
+@media (max-width: 400px) {
+  html {
+    font-size: 40%;
+  }
+
+  .copyright {
+    width: 80%;
+  }
+}
+
 /* End: Media Queries */
