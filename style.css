@@ -487,4 +487,52 @@ section.change {
     margin: 3rem 0;
   }
 }
+
+@media (max-width: 750px) {
+  .navbar {
+    width: 30vw;
+    left: -30vw;
+  }
+
+  .menu.change {
+    left: 30vw;
+  }
+
+  section.change {
+    left: 30vw;
+    transform: rotateY(25deg);
+  }
+
+  .section-heading {
+    font-size: 5.5rem;
+  }
+
+  .section-4 {
+    padding: 6rem 0 1rem 0;
+  }
+
+  .gallery-shelf {
+    height: 1.5rem;
+    width: 95%;
+  }
+
+  .gallery-shelf::before {
+    height: 5rem;
+    top: -5rem;
+  }
+
+  .gallery img {
+    width: 25%;
+    bottom: 4rem;
+  }
+
+  .gallery-img-2 {
+    left: 22%;
+  }
+
+  .gallery-img-3 {
+    left: 78%;
+  }
+}
+
 /* End: Media Queries */
