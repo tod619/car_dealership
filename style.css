@@ -308,6 +308,7 @@ section.change {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 0;
 }
 
 .contact-form {
@@ -352,5 +353,13 @@ section.change {
   color: #444;
   cursor: pointer;
   text-transform: uppercase;
+}
+
+.copyright {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.1rem;
 }
 /* End: Section 5 Form + Footer */
